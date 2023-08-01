@@ -1,0 +1,87 @@
+body {
+	background: url("blood.jpg");
+}
+
+.fundo {
+	background: #160304;
+    margin: 5px 15% 0 15%;
+    padding: 5px 10px 0 10px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logocontato {
+	width: 50px;
+  	right: 0px;
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	right: 150px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration:overline;
+}
+
+form label, form legend {
+	color: white;
+	display: block;
+	font-size: 22px;
+	margin: 0 0 15px;
+}
+
+form input {
+	background-color: #9B9A9A;
+	display: block;
+}
+
+
+.cadastre {
+	display: block;
+	margin: 0 0 25px;
+	padding: 10px 20px;
+	width: 45%;
+}
+
+.checkbox {
+	margin: 30px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 10px 0;
+	background: #801515;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #E41313;
+	transform: scale(1.1)
+}
+
+label {
+	color: white;
+}

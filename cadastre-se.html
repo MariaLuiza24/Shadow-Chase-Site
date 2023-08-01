@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>
+            Cadastre-se em shadows Chase
+        </title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cadastre-se.css">
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon">    
+    </head>
+    <body>
+        <div class="fundo">
+            <header>
+                <div class="caixa">
+                    <h1><a href="home.html"><img src="logo.ico" alt="logo" class="logocontato"></a></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main>
+                    <form>
+                        <label for="Nickname">Nickname</label>
+                        <input type="text" id="Nickname" class="cadastre" required>
+
+                        <label for="Nomesobrenome">Nome e sobrenome</label>
+                        <input type="text" id="Nomesobrenome" class="cadastre" required>
+
+                        <label for="dtnasc">Data Nascimento</label>
+                        <input type="date" id="dtnasc" class="cadastre" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="cadastre" required placeholder="seuemail@dominio.com">
+
+                        <label for="senha">Senha</label>
+                        <input type="text" id="senha" class="cadastre" required>
+
+                        <label class="checkbox"><input type="checkbox" required>Você concorda com a nossa politica de dados?</label>
+
+                        <fieldset>
+                        <legend>Como prefere que receber as atualizações?</legend>
+                        <label><input type="radio" name="contato" value="email" checked>Email</label>
+
+                        <label><input type="radio" name="contato" value="telefone">Telefone</label>
+
+                        <label><input type="radio" name="contato" value="whatsapp">Whatsapp</label>
+                        
+                    </fieldset>
+
+                        <input type="submit" value="Enviar formulário" class="enviar">
+                    </form>
+                
+            </main>
+
+        </div>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

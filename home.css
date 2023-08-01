@@ -1,0 +1,204 @@
+body {
+    background: url(blood.jpg)
+}
+header {
+    background: #160304;
+    margin: 5px 15% 0 15%;
+    padding: 5px 10px 0 10px;
+}
+header img {
+    width: 18%;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+header a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;   
+}
+.cadastre-se {
+    position: absolute;
+    top: 40px;
+    right: 17%;
+    background: #970C10;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.cadastre-se:hover {
+    color: blue;
+    font-size: 22px;
+}
+.cadastre-se:active {
+    color: red;
+}
+.cabecalho {
+    background: #160304;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.cabecalho img {
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu {
+    background: black;
+    margin: 12px;
+    padding: 20px;
+}
+.menu li {
+    display: inline;
+    width: 1100px;
+    margin: 0 15px 0 15px;
+}
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: red;
+    text-decoration: underline overline;
+    font-size: 27px;
+}
+.menu a:active {
+    color: black;
+}
+
+main {
+    background: #160304;
+    color: rgb(160, 159, 159);
+    margin: 0 15% 0 15%;
+    padding: 5px 10px 0 10px;  
+}
+main h1{
+    color:#970C10;
+    font-size: 35px;
+    margin: 0 0 15px 25px;
+    font-weight: bold;
+}
+.jogo {
+    background: rgb(62, 11, 11);
+    border: thick dotted black;
+    padding: 5px 5px 35px 5px;
+    margin-bottom: 20px;
+}
+.casa {
+    width: 40%;
+    margin-left: 15px;
+    display: inline;
+}
+.conteudohome{
+    font-size: 20px;
+    margin: 0 18% 0 2%;
+    text-indent: 2em;
+    display: inline-block;
+    position: absolute;
+}
+.avisos {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.avisos li::before {
+    content: "⚠";
+}
+.recomendacao {
+    text-indent: 0;
+    font-size: 20px;
+    padding-top: 15px;
+}
+p strong {
+    color: rgb(185, 7, 7)
+}
+#dica {
+    color: #1f1e1e;
+}
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    background: url(parede.jpg);
+    width: 70%;
+    margin: 0 auto;
+}
+.logorodape {
+    width: 20%;
+}
+.copyright {
+    color: white;
+    font-size: 18px;
+}
+
+/*css tutorial*/
+.tutorial {
+    background-color: black;
+    border: thick dashed #1f1e1e;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+/*css personagens*/
+.personagens {
+    margin: 0 10%;
+}
+.personagens li {
+    background: rgb(12, 4, 4);
+    border: 5px solid rgb(1, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.personagens img {
+    width: 50%;
+    display: inline;
+}
+.personagens h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 8%;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.personagens p {
+    width: 40%;
+    margin: auto 0 0 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+}
+
+/*css mapas*/
+.mapas {
+    margin: 0 10%;
+}
+.mapas li{
+    background: rgb(12, 4, 4);
+    border: 5px solid rgb(1, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.mapas img {
+    width: 50%;
+    display: inline;
+}
+.mapas h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 8%;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.mapas p {
+    width: 40%;
+    margin: auto 0 0 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 110px;
+}
